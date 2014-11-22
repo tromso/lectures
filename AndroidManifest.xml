@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smileowl"
+    android:versionCode="3"
+    android:versionName="2.1" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.Sherlock.Light.DarkActionBar" >
+        <activity
+            android:name="com.smileowl.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.FindMovie"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.AddMovie"
+            android:label="@string/title_activity_add_movie" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.ShowMovies"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_show_movies" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.YourMovie"
+            android:label="@string/title_activity_your_movie" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.DetailFragment"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_detail_fragment" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.Fragment_1"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/framgment1" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.Fragment_2"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/framgment2" >
+        </activity>
+        <activity
+            android:name="com.smileowl.DetailListFragment"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_detail_list_fragment" >
+        </activity>
+        <activity
+            android:name="com.smileowl.AddLecture"
+            android:label="@string/title_activity_add_movie" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/lecturesearchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.LectureShow"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lecture_show" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/lecturesearchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.LectureDetail"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lecture_detail" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/lecturesearchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.YourLecture"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_your_lecture" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/lecturesearchable" />
+        </activity>
+        <activity
+            android:name="com.smileowl.Lecturetop10"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/title_activity_lecturetop10" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/lecturesearchable" />
+        </activity>
+    </application>
+
+</manifest>

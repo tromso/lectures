@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SmileOwl</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Share</string>
+    <string name="search_hint">Search Movie by Name</string>
+    <string name="search_hint_lecture">Search Lecture by Name</string>
+    <string name="search_title">Search</string>
+    <string name="search_titlelecture">Search</string>
+    <string name="share">Share</string>
+    <string name="framgment1">Movies</string>
+    <string name="framgment2">Lectures2</string>
+    <string name="drawer_open">Open the Drawer</string>
+    <string name="drawer_close">Close the Drawer</string>
+
+    <string-array name="fragments">
+        <item>Lectures</item>
+        <item>Movies</item>
+   
+        
+    </string-array>
+    <string-array name="movie_type">
+        <item>Genre</item>
+        <item>Action</item>
+        <item>Animation</item>
+        <item>Comedy</item>
+        <item>Documentary</item>
+        <item>Drama</item>
+        <item>Fantasy</item>
+        <item>Horror</item>
+        <item>Romantic-Comedy</item>
+        <item>Sci-Fi</item>
+        <item>Thriller</item>
+    </string-array>
+    <string-array name="movie_tags">
+        <item>Tag</item>
+        <item>Adventure</item>
+        <item>Art-film</item>
+        <item>Award-winning</item>
+        <item>Biographical</item>
+        <item>Classic</item>
+        <item>Crime</item>
+        <item>Exciting</item>
+        <item>Family</item>
+        <item>Feel-good</item>
+        <item>Foreign</item>
+        <item>Funny</item>
+        <item>Fun</item>
+        <item>Historical</item>
+        <item>Indie</item>
+        <item>Inspirational</item>
+        <item>Interesting</item>
+        <item>Memorable</item>
+        <item>Musical</item>
+        <item>Noir</item>
+        <item>Original</item>
+        <item>Romance</item>
+        <item>Sad</item>
+        <item>Short</item>
+        <item>Silly</item>
+        <item>Smart</item>
+        <item>Special effects</item>
+        <item>Sports</item>
+        <item>Star-studded</item>
+        <item>Touching</item>
+        <item>True story</item>
+        <item>War</item>
+        <item>Weird</item>
+        <item>Western</item>
+    </string-array>
+    <string-array name="lectures">
+        <item>Category</item>
+        <item>Programming</item>
+        <item>Science</item>
+        <item>History</item>
+        <item>Business and Economics</item>
+        <item>Software</item>
+        <item>Languages</item>
+        <item>Do it Yourself</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="alllectures">
+        <item>Subcategory</item>
+    </string-array>
+    <string-array name="others">
+        <item>All</item>
+    </string-array>
+    <string-array name="programming">
+        <item>Subcategory</item>
+        <item>Java</item>
+        <item>C++</item>
+        <item>C.</item>
+        <item>Python</item>
+        <item>Html</item>
+        <item>Php</item>
+        <item>Mysql</item>
+        <item>ObjectiveC</item>
+        <item>Android</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="science">
+        <item>Subcategory</item>
+        <item>Mathematics</item>
+        <item>Physics</item>
+        <item>Biology</item>
+        <item>Chemistry</item>
+        <item>Medicine</item>
+        <item>Astronomy</item>
+        <item>Statistics</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="history">
+        <item>Pre-1800s</item>
+        <item>Post-1800s</item>
+    </string-array>
+    <string-array name="business">
+        <item>Subcategory</item>
+        <item>Accounting</item>
+        <item>Finance</item>
+        <item>Macroeconomics</item>
+        <item>Microeconomics</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="software">
+        <item>Subcategory</item>
+        <item>Photoshop</item>
+        <item>Word</item>
+        <item>Excel</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="languages">
+        <item>Subcategory</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>English</item>
+        <item>German</item>
+        <item>Others</item>
+    </string-array>
+    <string-array name="diy">
+        <item>Subcategory</item>
+        <item>Crafts</item>
+        <item>Others</item>
+    </string-array>
+
+    <string name="title_activity_add_movie">SmileOwl</string>
+    <string name="title_activity_show_movies">SmileOwl</string>
+    <string name="title_activity_movie_detail">SmileOwl</string>
+    <string name="title_activity_your_movie">SmileOwl</string>
+    <string name="title_activity_detail_fragment">SmileOwl</string>
+    <string name="title_activity_detail_list_fragment">SmileOwl</string>
+    <string name="title_activity_lecture_show">SmileOwl</string>
+    <string name="title_activity_lecture_detail">SmileOwl</string>
+    <string name="title_activity_your_lecture">SmileOwl</string>
+    <string name="title_activity_lecturetop10">Top10</string>
+
+</resources>

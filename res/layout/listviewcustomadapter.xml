@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:background="@color/white" >
+    
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="5dp"
+        >
+    <ImageButton android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+        android:background="@null"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/up"
+             ></ImageButton>
+    <TextView android:id="@+id/textview6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center"
+              android:textSize="15sp"
+              android:paddingBottom="5dp" />
+    <ImageButton android:id="@+id/button4"
+           android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+        android:background="@null"
+        android:baselineAlignBottom="true"
+        android:cropToPadding="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/down"
+             ></ImageButton>
+    <ImageButton android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:src="@drawable/share"></ImageButton>
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="6" >
+        
+              
+        
+    <TextView android:id="@+id/textview1"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textStyle="bold"
+              android:textSize="15sp"
+              android:paddingTop="6dp"
+              android:paddingBottom="5dp" />
+    <TextView android:id="@+id/textview5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textStyle="italic"
+              android:textSize="15sp"
+              android:paddingBottom="2dp" />
+    
+    
+    <TextView android:id="@+id/textview3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:textStyle="italic"
+              android:textSize="15sp"
+              android:paddingBottom="2dp" />
+    <TextView android:id="@+id/textview4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+            android:textStyle="italic"
+              android:textSize="15sp"
+              android:paddingBottom="6dp" />
+    <TextView android:id="@+id/textview2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:paddingBottom="2dp" />
+    <TextView android:id="@+id/textview7"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:textSize="15sp"
+              android:paddingBottom="8dp" />
+    </LinearLayout>
+
+
+
+     <LinearLayout
+        android:gravity="right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+       
+        android:layout_weight="1" >
+
+    <ImageButton
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/right48"
+         ></ImageButton>
+    </LinearLayout>
+
+ 
+</LinearLayout>
